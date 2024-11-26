@@ -1,0 +1,17 @@
+.modal-dialog{
+  max-width: 900px;
+}
+.table-responsive{
+  td{
+    min-width: 190px;
+    &:nth-child(2){
+      min-width: 70px;
+    }
+    &:nth-child(4){
+      min-width: 70px;
+    }
+    &:nth-child(5){
+      min-width: 70px;
+    }
+  }
+}
